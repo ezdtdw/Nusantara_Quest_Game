@@ -6,6 +6,9 @@ public class CameraFollow : MonoBehaviour {
     public Transform playerTransform;
     public Vector3 offset;
     public float smootSpeed = 0.125f;
+    
+
+    //test
 
     private void LateUpdate(){
         Vector3 desiredPosition = playerTransform.position + offset;
