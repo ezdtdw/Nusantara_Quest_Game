@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetButtonUp("Jump")) {
             isJumping = false;
         }
-
+        //berjalan
         AnimateWalking();
     }
 
