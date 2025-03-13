@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: d401bf8552ea2764ab445d7bfe31f2aa
+guid: da9870e8e35ca234fbeeadab350eae39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1076767982832315214
-    second: MC_Walking_0
+      213: -8244417634399692664
+    second: Mc_main1_0
   - first:
-      213: 1650330834110487023
-    second: MC_Walking_1
+      213: -1911692133375687324
+    second: Mc_main1_1
   - first:
-      213: -3843064660366059129
-    second: MC_Walking_2
+      213: 2351394100953503451
+    second: Mc_main1_2
   - first:
-      213: 3846407571537001394
-    second: MC_Walking_3
+      213: 4200685986023977514
+    second: Mc_main1_3
   - first:
-      213: -508470284045360679
-    second: MC_Walking_4
+      213: -4000847067561202659
+    second: Mc_main1_4
   - first:
-      213: 1570838317591326710
-    second: MC_Walking_5
+      213: -6150391633298305038
+    second: Mc_main1_5
   - first:
-      213: -2354044633897286409
-    second: MC_Walking_6
+      213: 9103297466903828297
+    second: Mc_main1_6
   - first:
-      213: 232742666406903711
-    second: MC_Walking_7
+      213: 263766366457004052
+    second: Mc_main1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,13 +160,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_Walking_0
+      name: Mc_main1_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 199
-        width: 89
-        height: 175
+        x: 231
+        y: 959
+        width: 416
+        height: 829
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b414cd793d8e01f0800000000000000
-      internalID: -1076767982832315214
+      spriteID: 888d3a1a7d1f59d80800000000000000
+      internalID: -8244417634399692664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_1
+      name: Mc_main1_1
       rect:
         serializedVersion: 2
-        x: 253
-        y: 199
-        width: 74
-        height: 174
+        x: 1221
+        y: 962
+        width: 341
+        height: 823
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe99709562727e610800000000000000
-      internalID: 1650330834110487023
+      spriteID: 465cb3e122e4875e0800000000000000
+      internalID: -1911692133375687324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_2
+      name: Mc_main1_2
       rect:
         serializedVersion: 2
-        x: 453
-        y: 199
-        width: 73
-        height: 175
+        x: 2181
+        y: 959
+        width: 339
+        height: 832
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78916068d01baaac0800000000000000
-      internalID: -3843064660366059129
+      spriteID: bd658420a74d1a020800000000000000
+      internalID: 2351394100953503451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_3
+      name: Mc_main1_3
       rect:
         serializedVersion: 2
-        x: 654
-        y: 198
-        width: 75
-        height: 176
+        x: 3146
+        y: 958
+        width: 347
+        height: 829
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bbf5d2ae4f216530800000000000000
-      internalID: 3846407571537001394
+      spriteID: a22bbe9e5a5db4a30800000000000000
+      internalID: 4200685986023977514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_4
+      name: Mc_main1_4
       rect:
         serializedVersion: 2
-        x: 51
+        x: 249
         y: 0
-        width: 84
-        height: 171
+        width: 393
+        height: 813
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d162ac78fc81f8f0800000000000000
-      internalID: -508470284045360679
+      spriteID: d1ce9591ac22a78c0800000000000000
+      internalID: -4000847067561202659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_5
+      name: Mc_main1_5
       rect:
         serializedVersion: 2
-        x: 254
+        x: 1223
         y: 0
-        width: 85
-        height: 170
+        width: 396
+        height: 809
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ff6a9f802dbcc510800000000000000
-      internalID: 1570838317591326710
+      spriteID: 2ff48bb456b65aaa0800000000000000
+      internalID: -6150391633298305038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_6
+      name: Mc_main1_6
       rect:
         serializedVersion: 2
-        x: 453
+        x: 2181
         y: 0
-        width: 73
-        height: 172
+        width: 337
+        height: 821
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f44323b0e0c45fd0800000000000000
-      internalID: -2354044633897286409
+      spriteID: 947148790d8655e70800000000000000
+      internalID: 9103297466903828297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_Walking_7
+      name: Mc_main1_7
       rect:
         serializedVersion: 2
-        x: 652
+        x: 3135
         y: 0
-        width: 75
-        height: 180
+        width: 347
+        height: 859
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9fb243d83eda3300800000000000000
-      internalID: 232742666406903711
+      spriteID: 4108d50ec1619a300800000000000000
+      internalID: 263766366457004052
       vertices: []
       indices: 
       edges: []
@@ -349,14 +349,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MC_Walking_0: -1076767982832315214
-      MC_Walking_1: 1650330834110487023
-      MC_Walking_2: -3843064660366059129
-      MC_Walking_3: 3846407571537001394
-      MC_Walking_4: -508470284045360679
-      MC_Walking_5: 1570838317591326710
-      MC_Walking_6: -2354044633897286409
-      MC_Walking_7: 232742666406903711
+      Mc_main1_0: -8244417634399692664
+      Mc_main1_1: -1911692133375687324
+      Mc_main1_2: 2351394100953503451
+      Mc_main1_3: 4200685986023977514
+      Mc_main1_4: -4000847067561202659
+      Mc_main1_5: -6150391633298305038
+      Mc_main1_6: 9103297466903828297
+      Mc_main1_7: 263766366457004052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
