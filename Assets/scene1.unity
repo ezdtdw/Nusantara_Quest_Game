@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 264547517}
   - component: {fileID: 264547516}
   - component: {fileID: 264547518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: kakek_museum_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!4 &264547515
 Transform:
@@ -397,7 +397,7 @@ Transform:
   m_GameObject: {fileID: 264547513}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.38, y: -2.544, z: 0}
+  m_LocalPosition: {x: -5.73, y: -2.26, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -437,8 +437,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -1.3190352, y: 0.15674183}
-  m_Size: {x: 19.58457, y: 19.58457}
+  m_Offset: {x: -0.16548634, y: 0.09581294}
+  m_Size: {x: 3.3685207, y: 10.079275}
   m_Direction: 0
 --- !u!50 &264547517
 Rigidbody2D:
@@ -488,6 +488,9 @@ MonoBehaviour:
   - saya manusia biasa makan nasi
   portrait:
   - {fileID: 5257932165585028017, guid: 0cf064095d82e154fb3e941920a06c9e, type: 3}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &305782036
 GameObject:
   m_ObjectHideFlags: 0

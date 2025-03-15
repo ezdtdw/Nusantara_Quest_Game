@@ -25,10 +25,7 @@ public class Dialogue : MonoBehaviour
     [SerializeField]
     private Sprite[] portrait;
 
-    // Ground layer
-    [SerializeField]
-    private LayerMask groundLayer;
-    private bool isGrounded;
+    private bool dialogueActive;
 
     /*void Start()
     {
@@ -37,17 +34,16 @@ public class Dialogue : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        CheckGroundStatus();
 
-        if(Input.GetKeyDown(KeyCode.E) && isGrounded) {
+        if(Input.GetKeyDown(KeyCode.E) /*&& isGrounded*/) {
             spreakerText.text = speaker[0];
             dialogueText.text = dialogueWords[0];
             portraitImage.sprite = portrait[0];
         }
     }
-
-    private void CheckGroundStatus() {
-        // Assuming the ground check is done using a raycast from the object's position
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1f, groundLayer);
+    private void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "Player"){
+            dialogueActive = true;
+        }
     }
 }
