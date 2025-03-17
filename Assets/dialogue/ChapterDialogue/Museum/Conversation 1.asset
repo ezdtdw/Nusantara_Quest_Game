@@ -12,3 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb8f73edd4f87c49baa157a0780830f, type: 3}
   m_Name: Conversation 1
   m_EditorClassIdentifier: 
+  actors: 000000000100000000000000
+  randomActorName:
+  - 
+  randomActorPortrait:
+  - {fileID: 0}
+  dialogue:
+  - uy
+  - ya
+  optionText: []
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}

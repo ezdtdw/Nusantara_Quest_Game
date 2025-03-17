@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb8f73edd4f87c49baa157a0780830f, type: 3}
   m_Name: NotMuch
   m_EditorClassIdentifier: 
+  actors: 
   randomActorName: []
   randomActorPortrait: []
-  dialogue: []
+  dialogue:
+  - Not Much. Iam kinda Bored Actually
   optionText: []
-  option0: {fileID: 0}
+  option0: {fileID: 11400000}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
