@@ -18,7 +18,7 @@ public class StandCharacter : MonoBehaviour{
             rb.constraints = RigidbodyConstraints2D.FreezeRotation; // Mencegah NPC tumbang
             if (!canBePushed)
             {
-                rb.isKinematic = true; // NPC tidak akan terdorong jika canBePushed = false
+                rb.bodyType = RigidbodyType2D.Kinematic; // NPC tidak akan terdorong jika canBePushed = false
             }
         }
     }
@@ -29,7 +29,7 @@ public class StandCharacter : MonoBehaviour{
         {
             if (canBePushed)
             {
-                rb.isKinematic = false; // Jika bisa didorong, aktifkan physics normal
+                rb.bodyType = RigidbodyType2D.Dynamic; // Jika bisa didorong, aktifkan physics normal
                 rb.mass = 50; // Pastikan massanya cukup agar tidak mudah terbang
             }
         }
