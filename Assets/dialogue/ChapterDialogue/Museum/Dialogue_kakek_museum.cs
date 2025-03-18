@@ -53,11 +53,12 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-        void OnTriggerExit2D (Collider2D collision){
-            if(collision.gameObject.tag == "Player"){
+        void OnTriggerExit2D(Collider2D collision) {
+            if (collision.gameObject.tag == "Player") {
                 DialgoueActivated = false;
-                DialogueCanvas.SetActive(false);
+                if (DialogueCanvas != null) {
+                    DialogueCanvas.SetActive(false); // Pastikan hanya dipanggil jika objek masih ada
+                }
             }
-            
         }
 }

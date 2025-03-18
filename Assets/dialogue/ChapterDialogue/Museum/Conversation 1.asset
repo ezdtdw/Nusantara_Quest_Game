@@ -12,14 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb8f73edd4f87c49baa157a0780830f, type: 3}
   m_Name: Conversation 1
   m_EditorClassIdentifier: 
-  actors: 000000000100000000000000
+  actors: 00000000010000000000000001000000
   randomActorName: []
   randomActorPortrait:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: ac9ebb465ceb79046a510239cadab824, type: 2}
+  - {fileID: 21300000, guid: 3793e162be65d9041bfc506041915964, type: 2}
+  - {fileID: 21300000, guid: ac9ebb465ceb79046a510239cadab824, type: 2}
+  - {fileID: 21300000, guid: 3793e162be65d9041bfc506041915964, type: 2}
   dialogue:
   - uy
-  - ya
+  - Naon
+  - dapatkah kamu membantu saya mencarikan prastasti utuk museum ini
+  - Y
   optionText: []
   option0: {fileID: 0}
   option1: {fileID: 0}
