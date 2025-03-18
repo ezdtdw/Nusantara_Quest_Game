@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kakek_museum_0: 5257932165585028017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
