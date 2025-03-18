@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Advance Dialogue", menuName = "ScriptableObjects/Advance Dialogue SO")]
 public class AdvanceDialogueSO : ScriptableObject
 {
-    public DialogueActor[] actors;
+    public DialogueActorSO[] actors;
 
     [Tooltip("Only need if Randoom is selected as the actor name")]
     [Header("Random Actor Info")]
