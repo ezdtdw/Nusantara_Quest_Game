@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Conversation 1
   m_EditorClassIdentifier: 
   actors: 000000000100000000000000
-  randomActorName:
-  - 
+  randomActorName: []
   randomActorPortrait:
+  - {fileID: 0}
   - {fileID: 0}
   dialogue:
   - uy
