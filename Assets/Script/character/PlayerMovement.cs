@@ -66,6 +66,7 @@ public class PlayerMovement : MonoBehaviour {
 
         AnimateCharacter();
     }
+    //test
 
     void FixedUpdate() {
         playerRb.linearVelocity = new Vector2(input * speed, playerRb.linearVelocity.y);
