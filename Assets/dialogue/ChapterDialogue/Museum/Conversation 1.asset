@@ -23,9 +23,11 @@ MonoBehaviour:
   - uy
   - Naon
   - dapatkah kamu membantu saya mencarikan prastasti utuk museum ini
-  - Y
-  optionText: []
-  option0: {fileID: 0}
+  optionText:
+  - ya
+  - saya setuju
+  - kurang lebih begitu
+  option0: {fileID: 11400000, guid: d19a0310a406598409b5662e92301aab, type: 2}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
