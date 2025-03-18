@@ -18,6 +18,7 @@ public class CropUIHead : MonoBehaviour
             imageComponent.sprite = CropHead(originalSprite);
         }
     }
+    //test update
 
     Sprite CropHead(Sprite sprite)
     {
