@@ -16,12 +16,16 @@ public class Dialogue : MonoBehaviour
     public TMP_Text dialogueText;
     //dialogue
     public List<string> dialogues;
+    //writing speed
+    public float writingSpeed;
     //index on dialogue
     private int index;
     //character index
     private int charIndex;
     //started bolean
     private bool started;
+    //wait for next bolean
+    private bool waitForNext;
 
 
 
@@ -38,6 +42,7 @@ public class Dialogue : MonoBehaviour
     //start dialog
     public void StartDialogue() {
         if(started) return; 
+
         //bolean to idcated taht we have starte
         started = true;
         //show the window
@@ -54,11 +59,15 @@ public class Dialogue : MonoBehaviour
         index = i;
         //reset the character index
         charIndex = 0;
+        //clear the dialogue componene text
+        dialogueText.text = string.Empty;
         //start writeing
         StartCoroutine(writing());
     }
     public void EndDialogue() {
         //hide the window
+        ToggleWindow(false);
+
 
     }
 
@@ -67,9 +76,33 @@ public class Dialogue : MonoBehaviour
     IEnumerator writing(){
         String currentDialogue = dialogues[index];
         //write the character
-
+        dialogueText.text += currentDialogue[charIndex];
         //increase the character index
-        //wait x seconds
-        //restart the same process
+        charIndex++;
+        //make sure yoy have reach the end of jthe sentenses
+         if (charIndex < currentDialogue.Length) {
+            //wait x seconds
+            yield return new WaitForSeconds(writingSpeed);
+            //restart the same process
+            StartCoroutine(writing());
+        } else {
+            // End this sentence and wit for the next one
+            waitForNext = true;
+        }
+    }
+
+    private void Update() {
+        if(!started) return;
+
+        if(waitForNext && Input.GetKeyDown(KeyCode.E)) {
+            waitForNext = false;
+            index++;
+            if(index >= dialogues.Count) {
+                GetDialogue(index);
+            } else {
+                //end dialogue
+                EndDialogue();
+            }
+        }
     }
 }
