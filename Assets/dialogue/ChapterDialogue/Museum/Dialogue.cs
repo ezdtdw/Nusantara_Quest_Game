@@ -27,14 +27,18 @@ public class Dialogue : MonoBehaviour
     //wait for next bolean
     private bool waitForNext;
 
-
+    private void Awake()
+    {
+        ToggleIndicator(false);
+        ToggleWindow(false);
+    }
 
     private void ToggleWindow(bool show) {
         //toggle the window
         window.SetActive(show);
     }
 
-    private void ToggleIndicator(bool show) {
+    public void ToggleIndicator(bool show) {
     //toggle the window
     indicator.SetActive(show);
     }
@@ -94,13 +98,12 @@ public class Dialogue : MonoBehaviour
     private void Update() {
         if(!started) return;
 
-        if(waitForNext && Input.GetKeyDown(KeyCode.E)) {
+        if (waitForNext && Input.GetKeyDown(KeyCode.E)) {
             waitForNext = false;
             index++;
-            if(index >= dialogues.Count) {
+            if (index < dialogues.Count) {
                 GetDialogue(index);
             } else {
-                //end dialogue
                 EndDialogue();
             }
         }

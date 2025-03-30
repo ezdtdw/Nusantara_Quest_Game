@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 264547517}
   - component: {fileID: 264547516}
   - component: {fileID: 264547519}
+  - component: {fileID: 264547520}
   m_Layer: 6
   m_Name: kakek_museum_0
   m_TagString: Player
@@ -483,6 +484,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePushed: 0
   canBePassedThrough: 1
+--- !u!114 &264547520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264547513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e825b63df7b01544081188b987638e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueScript: {fileID: 1479811345}
 --- !u!1 &299248110
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,6 +4257,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5829855321334399614, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829855321334399614, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: halo sigma boi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829855321334399614, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: apa kabur mu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829855321334399614, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: skibi boi
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4256,6 +4286,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3898444992529658578, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
   m_PrefabInstance: {fileID: 1479811343}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1479811345 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5829855321334399614, guid: 147fa46f8f0a69849981c0030acf453e, type: 3}
+  m_PrefabInstance: {fileID: 1479811343}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ce9574183a01540a5afb4928e5a6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550702923
 GameObject:
   m_ObjectHideFlags: 0
